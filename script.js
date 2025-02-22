@@ -1,8 +1,8 @@
-var Online = 1;
+var Online = 0;
 if (Online == 0) {
     var Online = 1;
 } else {
-    var Online = 2;
+    var Online = 0;
 }
 console.log("{+} Users Online -->", Online)
 
