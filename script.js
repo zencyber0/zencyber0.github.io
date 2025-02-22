@@ -1,3 +1,3 @@
-setTimeout(() => {
+setInterval(() => {
     console.log("entered");
-}, 2000);
+}, 1);
