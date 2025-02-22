@@ -1,8 +1,8 @@
 body {
-  background: powderblue;
+  background: linear-gradient(to right, black, grey);
 
 h1 {
-  color: black;
+  color: white;
   font-family: "Trebuchet MS";
 }
 
