@@ -3,7 +3,6 @@ fetch('http://ip-api.com/json', {
   headers: {
     'Content-Type': 'application/json'
   },
-  body: JSON.stringify({ key: 'value' }) // Only for methods with a body (POST, PUT)
 })
 .then(response => {
   if (!response.ok) {
