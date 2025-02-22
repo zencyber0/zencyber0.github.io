@@ -1,1 +1,1 @@
-<script>alert("success")</script>
+console.log("loaded");
