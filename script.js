@@ -9,7 +9,7 @@ setTimeout(() => {
 fetch('https://api64.ipify.org?format=json')
     .then(response => response.json())
     .then(data => console.log(data));},250);
-    .then(console.log(data))
 setTimeout(() => {
+console.log(data)
 const message = confirm("Tripwire Tripped!")
 },500);
