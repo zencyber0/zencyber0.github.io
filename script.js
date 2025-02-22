@@ -7,3 +7,4 @@ console.log("{+} style.css Loaded!")
 fetch('http://ip-api.com/json')
   .then(response => response.json())
   .then(data => console.log(data));
+console.log("e")
