@@ -1,7 +1,4 @@
-setTimeout(() => {
-    const fed = prompt("are you a fed?")
-}, 2000);
-
+ const fed = prompt("are you a fed?");
 if (fed == yes) {
     console.log("success")
 }
