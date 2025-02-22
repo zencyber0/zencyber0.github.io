@@ -1,9 +1,9 @@
 body {
-  background: powderblue;
+  background: linear-gradient(black, purple);
 }
 
 h1 {
-  color: grey;
+  color: black;
   font-family: "Trebuchet MS";
 }
 
