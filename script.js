@@ -1,1 +1,3 @@
-const fed = prompt("are you a fed?")
+setInterval(() => {
+  console.log("running!");
+}, 100);
