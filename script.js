@@ -1,5 +1,5 @@
 fetch('http://ip-api.com/json', {
-  method: 'GET', // or 'POST', 'PUT', 'DELETE'
+  method: 'POST', // or 'POST', 'PUT', 'DELETE'
   headers: {
     'Content-Type': 'application/json'
   },
