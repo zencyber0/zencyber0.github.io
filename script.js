@@ -1,3 +1,3 @@
 setTimeout(() => {
     console.log("entered");
-    {, 2000);
+}, 2000);
