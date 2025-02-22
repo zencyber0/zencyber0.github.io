@@ -1,3 +1,10 @@
+var Online = 0;
+if (Online == 0) {
+    var Online = 1;
+}
+console.log(Online)
+
+
 setTimeout(() => {
 fetch('https://api64.ipify.org?format=json')
     .then(response => response.json())
