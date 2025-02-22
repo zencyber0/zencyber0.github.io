@@ -4,7 +4,5 @@ console.log("{+} index.html Loaded!")
 console.log("{+} style.css Loaded!")
 },2000)
 
-fetch('http://ip-api.com/json')
-  .then(response => response.json())
-  .then(data => console.log(data));
-console.log("e")
+fetch('https://jsonip.com', { mode: 'cors'} ) .then((resp)
+                    => resp.json()) .then((ip) => { console.log(ip); });
