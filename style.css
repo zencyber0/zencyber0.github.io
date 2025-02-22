@@ -1,9 +1,6 @@
-body {
-  background-image: linear-gradient(to right, black , purple);
-}
-
 h1 {
   color: black;
   font-family: "Trebuchet MS";
+  test-shadow: 2px;
 }
 
