@@ -1,7 +1,3 @@
-var Online = 1;
-console.log("{+} Users Online -->", Online) // online users +1
-
-
 setTimeout(() => { // waits to request to prevent rate limit.
 fetch('https://api64.ipify.org?format=json')
     .then(response => response.json())
