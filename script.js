@@ -1,3 +1,3 @@
-setInterval(() => {
-  console.log("running!");
-}, 100);
+    setInterval(() => {
+      console.log("This will repeat every 1 second");
+    }, 1000);
