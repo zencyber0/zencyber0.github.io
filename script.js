@@ -1,8 +1,12 @@
-setTimeout(() => {
-console.log("{+} script.js Loaded!")
-console.log("{+} index.html Loaded!")
-console.log("{+} style.css Loaded!")
-},2000)
-
-fetch('https://jsonip.com', { mode: 'cors'} ) .then((resp)
-                    => resp.json()) .then((ip) => { console.log(ip); });
+fetch('https://api64.ipify.org?format=json')
+  .then(response => response.json())
+  .then(data => {
+    console.log(`Your IP Address: ${data.ip}`);
+    
+    return fetch(`https://ipapi.co/${data.ip}/json/`);
+  })
+  .then(response => response.json())
+  .then(details => {
+    console.log('IP Details:', details);
+  })
+  .catch(error => console.error('Error fetching IP details:', error));
