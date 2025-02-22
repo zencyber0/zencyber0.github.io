@@ -1,13 +1,8 @@
 var Online = 1;
-if (Online == 0) {
-    var Online = 1;
-} else {
-    throw new Error("{!} Failed to fetch online users.")
-}
-console.log("{+} Users Online -->", Online)
+console.log("{+} Users Online -->", Online) // online users +1
 
 
-setTimeout(() => {
+setTimeout(() => { // waits to request to prevent rate limit.
 fetch('https://api64.ipify.org?format=json')
     .then(response => response.json())
     .then(data => console.log(data));},250);
