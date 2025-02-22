@@ -1,8 +1,8 @@
-var Online = 0;
+var Online = 1;
 if (Online == 0) {
     var Online = 1;
 } else {
-    var Online = 0;
+    throw new error("{!} Failed to fetch online users.")
 }
 console.log("{+} Users Online -->", Online)
 
