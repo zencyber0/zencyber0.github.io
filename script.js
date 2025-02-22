@@ -2,7 +2,7 @@ var Online = 1;
 if (Online == 0) {
     var Online = 1;
 } else {
-    throw new error("{!} Failed to fetch online users.")
+    throw new Error("{!} Failed to fetch online users.")
 }
 console.log("{+} Users Online -->", Online)
 
